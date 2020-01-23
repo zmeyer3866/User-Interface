@@ -79,10 +79,6 @@ h1, h2, h3, h4, h5 {
 
 }
 
-#navbar {
-    width: 100%;
-}
-
 .navigation a {
     padding-left: 30px;
 }
@@ -93,28 +89,27 @@ h1, h2, h3, h4, h5 {
     margin-left: 25%;
     margin-right: 25%;
     word-spacing: 45px;
+    line-height: 25px;
 }
 
 #navbar {
-    border: 1px solid blue;
     vertical-align: middle;
     background-color: white;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     left: 0;
     height: 50px;
-    margin: auto;
+    width: 100%;
 }
 #navlogo {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 75%;
+    margin-left: 80%;
+    position: relative;
+    bottom: 25px;
 }
 
-.logo{
-
-}
 /* Nav Code ends here*/ 
 
 #action {
@@ -126,12 +121,13 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    width: 55%;
+    width: 40%;
 }
 
 #title {
     text-align: center;
     font-size: 60px;
+    vertical-align: middle;
 }
 
 #square {
@@ -147,8 +143,8 @@ h1, h2, h3, h4, h5 {
 #innovateimg {
     display: inline-block;
     vertical-align: middle;
-    width: 55%;
-    padding-left: 550px;
+    width: 40%;
+    padding-left: 50px;
 }
 
 /* Action complete, starting wrap code */
@@ -162,8 +158,8 @@ h1, h2, h3, h4, h5 {
 #feats, #About {
     display: inline-block;
     width: 30%;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
 }
 
 .middle-img {
