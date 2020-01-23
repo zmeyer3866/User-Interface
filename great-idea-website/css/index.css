@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+{
+    margin-bottom: 15px;
+}
+
+{
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+#navbar {
+    width: 100%;
+}
+
+.navigation a {
+    padding-left: 30px;
+}
+
+.navigation{
+    display: incline-block;
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-right: 25%;
+    word-spacing: 45px;
+}
+
+#navbar {
+    border: 1px solid blue;
+    vertical-align: middle;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    margin: auto;
+}
+#navlogo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 75%;
+}
+
+.logo{
+
+}
+/* Nav Code ends here*/ 
+
+#action {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#innovate {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 55%;
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+}
+
+#square {
+    border-radius: 20px;
+    height: 25px;
+}
+
+#square:hover {
+    color: skyblue;
+    background-color: white;
+}
+
+#innovateimg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+    padding-left: 550px;
+}
+
+/* Action complete, starting wrap code */
+
+.upper-wrap{
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#feats, #About {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.middle-img {
+    text-align: center;
+    width: 100%;
+}
+/* Upper wrap complete, start lower wrap*/
+
+.lowwrap{
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#services, #product, #vision{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+} 
+/* lowwrap completed, beginning legal area*/
+
+#legal {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
